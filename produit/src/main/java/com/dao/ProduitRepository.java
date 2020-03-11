@@ -14,6 +14,8 @@ public interface ProduitRepository extends JpaRepository<Produit, Integer> {
 
     @Query(value = "select p from Produit p where p.prix = :prix")
     Produit searchProduit( @Param ("prix") double prix);
+    @Query(value = "select sum(prix) from Produit ")
+    public double prixTotal();
 
 
 }

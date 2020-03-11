@@ -44,4 +44,8 @@ public class ProduitController {
     public List<Produit> seachProduitsById(@RequestParam("prix") double prix){
         return produitService.searchProduitByPrix (prix);
     }
+    @GetMapping(value = "/somme")
+    public double CalculSomme(){
+        return produitService.prixTotal ();
+    }
 }
