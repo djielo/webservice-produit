@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: produit
+Implementation-Version: 1.0-SNAPSHOT
+Archiver-Version: Plexus Archiver
+Built-By: jerome
+Implementation-Vendor-Id: fr.quanteam
+Created-By: Apache Maven 3.6.1
+Build-Jdk: 1.8.0_191
+Implementation-URL: http://projects.spring.io/spring-boot/produit/
+Implementation-Vendor: Pivotal Software, Inc.
+
