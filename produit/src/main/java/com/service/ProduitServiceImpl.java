@@ -41,4 +41,9 @@ public class ProduitServiceImpl implements ProduitService {
     public List<Produit> searchProduitByPrix(double prix) {
         return produitRepository.findAll ();
     }
+
+    @Override
+    public double sommeTotal() {
+        return produitRepository.sommeTotal ();
+    }
 }
