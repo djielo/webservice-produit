@@ -16,4 +16,6 @@ public interface ProduitService {
     public Produit searchProduit(String nom, double prix);
     //rechercher un produit par son prix
     public List<Produit> searchProduitByPrix(double prix);
+    //web service pour calculer le prix total des produits
+    public double sommeTotal();
 }
